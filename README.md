@@ -1,3 +1,7 @@
+<div>
+ <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview.png">
+</div>
+
 # bspwm_dotfiles
  Customized for my neeeds bspwm.
 
@@ -32,5 +36,7 @@ Then, copy .xinitrc in ~ folder. Then copy bspwm folder in ~/.config.
 When boot and login in your Arch user just write 
 
 ```startx```
+
+Place wallpaper in ~/Downloads folder with wall-03.webp name
 
 For cursors, themes, font, icons I used same with prolinux410/owl_dots/bspwm_nord (link higher) and software too XD

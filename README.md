@@ -25,7 +25,7 @@ I prefer with main video driver also install this one
 
 Second, install more packages.
 
-```sudo pacman -S pulseaudio pavucontrol firefox bspwm picom rofi sxhkd conky htop viewnior nemo links cmus neofetch scrot ranger neovim mpv unzip fish alacritty ttf-nerd-fonts-symbols feh jq ueberzug w3m imagemagick ghostscript```
+```sudo pacman -S pulseaudio pavucontrol firefox bspwm picom rofi sxhkd conky htop viewnior nemo links cmus neofetch scrot ranger neovim mpv unzip fish alacritty ttf-nerd-fonts-symbols feh jq ueberzug w3m imagemagick ghostscript lxappearance nitrogen```
 
 Then, copy .xinitrc in ~ folder. Then copy bspwm folder in ~/.config.
 

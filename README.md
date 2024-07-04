@@ -39,4 +39,12 @@ When boot and login in your Arch user just write
 
 Place wallpaper in ~/Downloads folder with wall-03.webp name
 
+After that, open ~/.config/bspwm/themes/bspwm_nord/polybar/modules.ini
+
+Change in [module/battery] battery to yours and adapter to yours. You can find them in /sys/class/power_supply folder
+
+Then, open ~/.config/bspwm/themes/bspwm_nord/scripts/weather.sh and change CITY to yours
+
 For cursors, themes, font, icons I used same with prolinux410/owl_dots/bspwm_nord (link higher) and software too XD
+
+Congrats, you installed my bspwm theme!

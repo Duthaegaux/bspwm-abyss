@@ -47,4 +47,6 @@ Then, open ~/.config/bspwm/themes/bspwm_nord/scripts/weather.sh and change CITY 
 
 Theme - https://github.com/rtlewis1/GTK/tree/Numix-BLACK-Colors-Desktop
 
+Icons - https://www.pling.com/p/1335817/
+
 Congrats, you installed my bspwm theme!

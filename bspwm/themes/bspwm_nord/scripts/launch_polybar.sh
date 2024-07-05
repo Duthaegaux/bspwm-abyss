@@ -8,4 +8,4 @@ polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini xwindow &
 polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini center &
 polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini tray &
 polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini right &
-polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini poweroff &
+#polybar -c ~/.config/bspwm/themes/bspwm_nord/polybar/config.ini poweroff &

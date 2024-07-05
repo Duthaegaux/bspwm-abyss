@@ -10,7 +10,7 @@ configuration {
 * {
 	font: "JetbrainsMono 10";
 
-	background-color: @gr;
+	background-color: @fg;
 	separatorcolor: transparent;
 
 	border: 0;
@@ -25,13 +25,13 @@ window {
 	border-radius: 0;
 	border: 0;
 	padding: 10;
-	background-color: @bg;
+	background-color: @blck;
 	x-offset:   0px;        
 	y-offset:   0px;
 }
 
 mainbox {
-	background-color: @bg;
+	background-color: @blck;
 	children: [inputbar,listview];
 	padding: 0;
 }
@@ -39,7 +39,7 @@ mainbox {
 listview {
 	scrollbar: false;
 	padding: 2 0;
-	background-color: @bg;
+	background-color: @blck;
 	columns: 2;
 	lines: 7;
 	margin: 8 0 0 0;
@@ -48,15 +48,15 @@ listview {
 
 inputbar {
 	children: [prompt, entry];
-	background-color: @gr;
+	background-color: @fg;
 	border-radius: 10;
 	margin: 10 0 10 0;
 }
 
 prompt {
 	font: "Symbols Nerd Font 10";
-	background-color: @gr;
-	text-color: @bg;
+	background-color: @fg;
+	text-color: @blck;
 	enabled: true;
 	border-radius: 0;
 	padding: 5 10 0 10;
@@ -65,8 +65,8 @@ prompt {
 
 entry {
 	background-color: transparent;
-	text-color: @bg;
-	placeholder-color: @fg;
+	text-color: @blck;
+	placeholder-color: @blck;
 	border-radius: 0;
 	placeholder: "Search...";
 	blink: false;
@@ -94,38 +94,38 @@ element-icon {
 }
 
 element.normal.normal {
-	background-color: @bg;
+	background-color: @blck;
 	text-color: @fg;
 }
 element.normal.urgent {
-	background-color: @gr;
+	background-color: @blck;
 	text-color: @fg;
 }
 element.normal.active {
-	background-color: @gr;
+	background-color: @blck;
 	text-color: @fg;
 }
 element.selected.normal {
 	background-color: @fg;
-	text-color: @bg;
+	text-color: @blck;
 }
 element.selected.urgent {
 	background-color: @fg;
-	text-color: @bg;
+	text-color: @blck;
 }
 element.selected.active {
 	background-color: @fg;
-	text-color: @bg;
+	text-color: @blck;
 }
 element.alternate.normal {
-	background-color: @bg;
+	background-color: @blck;
 	text-color: @fg;
 }
 element.alternate.urgent {
-	background-color: @bg;
+	background-color: @blck;
 	text-color: @fg;
 }
 element.alternate.active {
-	background-color: @bg;
+	background-color: @blck;
 	text-color: @fg;
 }

@@ -1,5 +1,5 @@
 <div>
- <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview.png">
+ <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview_v2.png">
 </div>
 
 # bspwm_dotfiles

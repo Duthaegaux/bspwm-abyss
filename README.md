@@ -8,7 +8,9 @@
 
 As the base I used bspwm_nord from prolinux410 (https://gitlab.com/prolinux410/owl_dots/-/tree/main/bspwm/bspwm_nord).
 
-Also I take some polybar modules from zproger (https://github.com/Zproger/bspwm-dotfiles).Thx a lot!
+Also I take some polybar modules from zproger (https://github.com/Zproger/bspwm-dotfiles). 
+
+Thx a lot!
 
 I changed it to use on my laptop (HP EliteBook 840 G3) with 1366x768 resolution.
 

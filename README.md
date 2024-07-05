@@ -45,6 +45,6 @@ Change in [module/battery] battery to yours and adapter to yours. You can find t
 
 Then, open ~/.config/bspwm/themes/bspwm_nord/scripts/weather.sh and change CITY to yours
 
-For cursors, themes, font, icons I used same with prolinux410/owl_dots/bspwm_nord (link higher) and software too XD
+Theme - https://github.com/rtlewis1/GTK/tree/Numix-BLACK-Colors-Desktop
 
 Congrats, you installed my bspwm theme!

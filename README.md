@@ -1,7 +1,7 @@
 <div>
- <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview_v2.png">
- <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview1_v2.png">
- <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview2_v2.png">
+ <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview1.png">
+ <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview2.png">
+ <img src="https://github.com/Duthaegaux/bspwm_dotfiles/blob/main/preview3.png">
 </div>
 
 # bspwm_dotfiles

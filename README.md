@@ -16,7 +16,7 @@ Thx a lot!
 
 I changed it to use on my laptop (HP EliteBook 840 G3) with 1366x768 resolution.
 
-For 1920x1080 resolution use [this](https://github.com/Duthaegaux/bspwm-abyss/tree/1920x1080) version
+For 1920x1080 resolution use [this](https://github.com/Duthaegaux/bspwm-abyss/tree/1920x1080) version.
 
 As for me, I edited Information panel:
 - Added battery indicator, changed pulseaudio module and swap places icon a little bit

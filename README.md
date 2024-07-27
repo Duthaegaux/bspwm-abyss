@@ -14,7 +14,7 @@ Also I take some polybar modules from zproger (https://github.com/Zproger/bspwm-
 
 Thx a lot!
 
-I changed it to use on my laptop (HP EliteBook 840 G3) with 1366x768 resolution.
+This branch is made for Full HD resolution (1920x1080)
 
 As for me, I edited Information panel:
 - Added battery indicator, changed pulseaudio module and swap places icon a little bit

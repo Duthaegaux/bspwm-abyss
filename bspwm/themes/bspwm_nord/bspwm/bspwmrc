@@ -5,13 +5,13 @@ numlockx &
 nitrogen --restore &
 picom --config ~/.config/bspwm/themes/bspwm_nord/picom/picom.conf &
 xsetroot -cursor_name left_ptr &
-feh --bg-scale ~/Downloads/wall-03.webp
+feh --bg-scale ~/Wallpaper/wall-03.webp
 ~/.config/bspwm/themes/bspwm_nord/scripts/launch_polybar.sh &
 
 flameshot &
 setxkbmap -option "grp:alt_shift_toggle" us,ru
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 bspc config border_width         1
 bspc config window_gap          10

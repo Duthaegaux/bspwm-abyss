@@ -50,8 +50,8 @@ super + alt + space
 	bspc node -p cancel
 
 #ПЕРЕКЛЮЧИТСЯ НА ВОРКСПЕЙС ИЛИ ПЕРЕТАЩИТЬ НА НЕГО АКТИВНОЕ ОКНО
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+super + {_,shift + }{1-9,0,F1,F2,F3,F4,F5}
+	bspc {desktop -f,node -d} '^{1-9,10,11,12,13,14,15}'
 
 #ЗАКРЫТЬ ОКНО ИЛИ УБИТЬ ЕГО
 super + {_, shift + }c

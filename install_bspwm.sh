@@ -11,8 +11,11 @@ print_wait() {
 
 print_wait "Thx for choosing this rice!" 0.5
 
-print_wait "Installing xorg..." 0.5
+print_wait "Installing font..." 0.5
+sudo pacman -S ttf-jetbrains-mono
+clear
 
+print_wait "Installing xorg..." 0.5
 sudo pacman -S xorg xorg-xinit xorg-server xorg-xset xorg-xsetroot xorg-xrandr xorg-xrdb
 clear
 
@@ -54,6 +57,10 @@ print_wait "Installing rice..." 0.5
 chmod +x .xinitrc
 cp .xinitrc ~
 cp -r bspwm/ ~/.config/
+
+cp wall-03.webp ~/Downloads/
+mkdir ~/Wallpaper
+cp wall-03.webp ~/Wallpaper/
 
 print_wait "Congrats!" 1.0
 

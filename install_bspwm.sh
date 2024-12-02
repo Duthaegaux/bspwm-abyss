@@ -50,7 +50,7 @@ fi
 clear
 
 print_wait "Installing more packages..." 0.5
-sudo pacman -S pulseaudio pavucontrol firefox bspwm picom rofi sxhkd conky htop viewnior nemo links cmus neofetch scrot ranger neovim mpv unzip fish alacritty ttf-nerd-fonts-symbols feh jq ueberzug w3m imagemagick ghostscript lxappearance nitrogen
+sudo pacman -S pulseaudio pavucontrol firefox bspwm picom rofi sxhkd conky htop viewnior nemo links cmus neofetch flameshot mpv unzip fish alacritty ttf-nerd-fonts-symbols feh jq ueberzug w3m imagemagick lxappearance
 clear
 
 print_wait "Installing rice..." 0.5
@@ -61,6 +61,16 @@ cp -r bspwm/ ~/.config/
 cp wall-03.webp ~/Downloads/
 mkdir ~/Wallpaper
 cp wall-03.webp ~/Wallpaper/
+
+git clone https://github.com/rtlewis1/GTK/ -b Numix-BLACK-Colors-Desktop
+cd GTK/
+sudo cp -r Numix-BLACK-Steel/ /usr/share/themes
+cd ../
+
+git clone https://github.com/rtlewis88/rtl88-Themes/ -b Numix-BLACK
+cd rtl88-Themes/
+sudo cp -r BLACK-Steel-Numix/ /usr/share/icons
+cd ../
 
 print_wait "Congrats!" 1.0
 
